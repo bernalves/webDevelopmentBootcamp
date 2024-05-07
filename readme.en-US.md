@@ -1,7 +1,7 @@
 # The Web Development Bootcamp 2024
 
-[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green)](.\readme.md)
-[![en-US](https://img.shields.io/badge/lang-en--US-blue)](.\readme.en-US.md)
+[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green)](/README.md)
+[![en-US](https://img.shields.io/badge/lang-en--US-blue)](/README.en-US.md)
 
 ## Who am I
 
@@ -19,7 +19,7 @@ You can know more about me and checking out my profiles [on Github](https://gith
 
 **Final Project:** Still thinking about it.
 
-**Notes**: [Personal Notes (Brazilian Portuguese only)](.\personalNotes).
+**Notes**: [Personal Notes (Brazilian Portuguese only)](/personalNotes).
 
 **Content:**
 

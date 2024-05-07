@@ -1,7 +1,7 @@
 # The Web Development Bootcamp 2024
 
-[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green)](.\readme.md)
-[![en-US](https://img.shields.io/badge/lang-en--US-blue)](.\readme.en-US.md)
+[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green)](/README.md)
+[![en-US](https://img.shields.io/badge/lang-en--US-blue)](/README.en-US.md)
 
 ## Quem sou eu
 
@@ -19,7 +19,7 @@ Para me conhecer  mais, você  pode acessar meus perfis [no Github](https://gith
 
 **Projeto Final:** Ainda a definir.
 
-**Notas**: [Anotações (somente em português)](.\personalNotes).
+**Notas**: [Anotações (somente em português)](/personalNotes).
 
 **Atividades Propostas:**
 

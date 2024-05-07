@@ -4,7 +4,7 @@
 
 ## Relevância dos Tópicos
 
-![Relevância](.\personalNotes\pt-BR\2_Tópicos.png)
+![Relevância](/personalNotes/2_Tópicos.png)
 
 ## Notas
 
@@ -69,6 +69,6 @@ Recomendações: Chrome e VS Code.
 
 ## Navegação
 
-[**Página Inicial:** The Web Development Bootcamp 2024](.\readme.md)
+[**Página Inicial:** The Web Development Bootcamp 2024](../README.md)
 
-<!-- [**Próxima Nota:** O Essencial Sobre HTML](.\personalNotes\pt-BR\3_OEssencialSobreHtml.md) -->
+[**Próxima Nota:** O Essencial Sobre HTML](/personalNotes/3_OEssencialSobreHtml.md)
