@@ -1,7 +1,7 @@
 # The Web Development Bootcamp 2024
-[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green)](readme.md)
-[![en-US](https://img.shields.io/badge/lang-en--US-blue)](readme.en-US.md)
-<!-- [![es-ES](https://img.shields.io/badge/lang-es--ES-yellow)](readme.es-ES.md) -->
+
+[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green)](.\readme.md)
+[![en-US](https://img.shields.io/badge/lang-en--US-blue)](.\readme.en-US.md)
 
 ## Quem sou eu
 
@@ -13,11 +13,13 @@ Para me conhecer  mais, você  pode acessar meus perfis [no Github](https://gith
 
 ## Sobre este bootcamp
 
-**Bootcamp:** [The Web Developer Bootcamp 2024](https://github.com/Colt/TheWebDeveloperBootcampSolutions)
+**Bootcamp:** [The Web Developer Bootcamp 2024](https://github.com/Colt/TheWebDeveloperBootcampSolutions).
 
-**Instrutor e criador:**  [Colt Steele](https://www.youtube.com/c/ColtSteeleCode)
+**Instrutor e criador:**  [Colt Steele](https://www.youtube.com/c/ColtSteeleCode).
 
 **Projeto Final:** Ainda a definir.
+
+**Notas**: [Anotações (somente em português)](.\personalNotes).
 
 **Atividades Propostas:**
 

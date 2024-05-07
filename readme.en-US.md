@@ -1,7 +1,7 @@
 # The Web Development Bootcamp 2024
-[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green)](readme.md)
-[![en-US](https://img.shields.io/badge/lang-en--US-blue)](readme.en-US.md)
-<!-- [![es-ES](https://img.shields.io/badge/lang-es--ES-yellow)](readme.es-ES.md) -->
+
+[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green)](.\readme.md)
+[![en-US](https://img.shields.io/badge/lang-en--US-blue)](.\readme.en-US.md)
 
 ## Who am I
 
@@ -13,11 +13,13 @@ You can know more about me and checking out my profiles [on Github](https://gith
 
 ## About the bootcamp
 
-**Bootcamp:** [The Web Developer Bootcamp 2024](https://github.com/Colt/TheWebDeveloperBootcampSolutions)
+**Bootcamp:** [The Web Developer Bootcamp 2024](https://github.com/Colt/TheWebDeveloperBootcampSolutions).
 
-**Created by:**  [Colt Steele](https://www.youtube.com/c/ColtSteeleCode)
+**Created by:**  [Colt Steele](https://www.youtube.com/c/ColtSteeleCode).
 
 **Final Project:** Still thinking about it.
+
+**Notes**: [Personal Notes (Brazilian Portuguese only)](.\personalNotes).
 
 **Content:**
 
