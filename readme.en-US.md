@@ -19,7 +19,7 @@ You can know more about me and checking out my profiles [on Github](https://gith
 
 **Final Project:** Still thinking about it.
 
-**Notes**: [Personal Notes (Brazilian Portuguese only)](/personalNotes).
+**Notes**: [Personal Notes (Brazilian Portuguese only)](/Personal_Notes).
 
 **Content:**
 

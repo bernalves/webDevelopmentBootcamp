@@ -19,7 +19,7 @@ Para me conhecer  mais, você  pode acessar meus perfis [no Github](https://gith
 
 **Projeto Final:** Ainda a definir.
 
-**Notas**: [Anotações (somente em português)](/personalNotes).
+**Notas**: [Anotações (somente em português)](/Personal_Notes).
 
 **Atividades Propostas:**
 
