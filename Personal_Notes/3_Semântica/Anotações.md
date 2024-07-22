@@ -20,13 +20,13 @@
 
 #### Divs
 
-> [_Divs_](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/div) (divisões) são elementos de bloco que tem como finalidade agrupar outros elementos da página.
+> [_Divs_](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div) (divisões) são elementos de bloco que tem como finalidade agrupar outros elementos da página.
 
 _Divs_ forçam uma divisão de conteúdo antes e depois do agrupamento. Simples assim. Também permitem, por CSS, a estilização do bloco inteiro.
 
 #### Spans
 
-> [_Spans_](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/span) também tem a finalidade de agrupar elementos, porém em linha (_Inline_).
+> [_Spans_](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span) também tem a finalidade de agrupar elementos, porém em linha (_Inline_).
 
 _Spans_ também são elementos genéricos, assim como as _Divs_, que possibilitam a alteração de vários elementos _Inline_ de uma só. Com CSS é possível estilizar todos os elementos _Span_ ao mesmo tempo.
 
@@ -52,24 +52,42 @@ Não é difícil fazer o simples, basta ter vontade.
 
 Ao invés de "uma _div_ para governar a todos", use elementos mais apropriados e que dão mais sentido ao conteúdo que estão agrupando, como:
 
-- `<article>`
+- `<abbr>`
 
-- `<aside>`
+- [`<article>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+
+  Representa uma divisão do conteúdo apresentado. Deve ser utilizado quando o conteúdo agrupado é independente dos demais conteúdos da página e tem a possibilidade de ser reaproveitado. [Essa pequena descrição](https://www.shecodes.io/athena/60553-when-to-use-section-or-article-in-html) exemplifica muito bem e facilita entender em quais situações aplicar essa divisão de conteúdo em uma página.
+
+- [`<aside>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
+
+  Representa um conteúdo indiretamente relacionado ou que margeia ao conteúdo principal, como uma legenda, explicação resumida, nota ou ênfase em uma parte do texto que abrange todo o conteúdo e auxilia em sua compreensão.
+
+- `<data>`
 
 - `<details>`
 
-- `<footer>`
+- `<figure>`
 
-- `<header>`
+- [`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
 
-- [`<main>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/main)
+  Representa qualquer conteúdo que está localizado no rodapé, seja da página ou dentro de outros elementos, como o `<article>`.
 
-  - Representa o conteúdo principal da página que está contido no `<body>` e deve excluir qualquer conteúdo que seja repetitivo na página (exemplos: barras laterais (_sidebars_), menus (_nav links_), informações de copyright, logo, formulários, etc.)
+- [`<header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
 
-- [`<nav>`](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/nav)
+  Representa qualquer conteúdo introdutório e pode incluir o conteúdo navegável da página. Assim como o `<footer>`, é possível que esteja dentro de outros elementos, como o `<article>`.
+
+- [`<main>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
+
+  Representa o conteúdo principal da página que está contido no `<body>` e deve excluir qualquer conteúdo que seja repetitivo na página (exemplos: barras laterais (_sidebars_), menus (_nav links_), informações de copyright, logo, formulários, etc.)
+
+- [`<nav>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
 
   - Representa todas referências de navegação dentro ou fora da página
 
-- `<section>`
+- `<time>`
+
+- [`<section>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+
+  Representa uma divisão do conteúdo apresentado. Deve ser utilizado quando se deseja agrupar conteúdos similares e/ou eixos temáticos para manter a coesão textual. [Essa pequena descrição](https://www.shecodes.io/athena/60553-when-to-use-section-or-article-in-html) exemplifica muito bem e facilita entender em quais situações aplicar essa divisão de conteúdo em uma página.
 
 - `<summary>`
