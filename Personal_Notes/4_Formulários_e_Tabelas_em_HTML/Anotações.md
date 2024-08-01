@@ -32,3 +32,15 @@ Uma tabela é um modo de exibit informações de maneira tabulada. [Aqui pode ve
 - [`<tr>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr): declara que o conteúdo contido será exibido na mesma linha da tabela HTML.
 
 - [`<td>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td): declara o conteúo da célula da tabela HTML.
+
+### Formulários
+
+O elemento `<form>`, por si só, não traz nenhum ganho á estética da página, mas um meio de agrupar elementos que serão utilizados para coletar informações (botões, checkbox, etc.), além de especificar para onde as informações serão encaminhadas.
+
+#### Elementos de um formulário
+
+- [`<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input): é um elemento versátil que muda seu comportamento através do elemento `<type>`.
+
+- [`<label>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
+
+- [`<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
