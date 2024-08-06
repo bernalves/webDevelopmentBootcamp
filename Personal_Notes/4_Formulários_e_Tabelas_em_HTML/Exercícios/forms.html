@@ -12,17 +12,80 @@
     <form action="/tacos">
         <p>
             <label for="dueDate">Selecione a data desejada:</label>
-            <input id="dueDate" type="date">
+            <input id="dueDate" type="date" name="dueDate">
         </p>
         <p>
             <label for="budget">Qual o orçamento disponível?</label>
-            <input id="budget" type="number" placeholder="Valor do orçamento">
+            <input id="budget" type="number" placeholder="Valor do orçamento" name="budget" min="10" max="100" value="50">
         </p>
         <p>
             <label for="comments">Comentários Adicionais:</label>
-            <input id="comments" type="text" placeholder="Descreva o motivo desse orçamento.">
+            <input id="comments" type="text" placeholder="Descreva o motivo desse orçamento." name="comments">
         </p>
         <button>Enviar orçamento</button>
+    </form>
+
+    <h2>Hijacking ferramentas de busca</h2>
+
+    <h3>Reddit</h3>
+
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q">
+        <button>Buscar no Reddit</button>
+    </form>
+
+    <h3>Google</h3>
+
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Buscar no Google</button>
+    </form>
+
+    <h3>Youtube</h3>
+
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Buscar no Youtube</button>
+    </form>
+
+    <h2>Outros exercícios</h2>
+
+    <form action="birds">
+        <input type="checkbox" name="aceite" id="aceite">
+        <label for="aceite">Aceito os termos de uso</label>
+        <button>Enviar</button>
+
+        <p>
+            <label for="xl">XL:</label>
+            <input type="radio" name="tamanho" id="xl" value="Muito grande">
+            <label for="l">L:</label>
+            <input type="radio" name="tamanho" id="l" value="Grande">
+            <label for="m">M:</label>
+            <input type="radio" name="tamanho" id="m" value="Médio">
+        </p>
+
+        <p>
+            <label for="">Escolha seu prato preferido</label>
+            <select name="jantar">
+                <option value="nenhum" selected>Não quero jantar</option>
+                <option value="pizza">Pizza</option>
+                <option value="hamburguer">Hamburguer</option>
+                <option value="sushi">Sushi</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="queijo">Queijim é bão em que medida?</label>
+            <input type="range" name="qtd_queijo" id="queijo" min="0" max="10">
+        </p>
+
+        <p>
+            <label for="comentario_adicional">Por favor deixe um comentário sobre esse formulário:</label>
+            <br>
+            <textarea name="comentario" id="comentario_adicional" cols="100" rows="10" placeholder="Comente sobre o queijim"></textarea>
+        </p>
+
+        <button>Enviar</button>
     </form>
 </body>
 
