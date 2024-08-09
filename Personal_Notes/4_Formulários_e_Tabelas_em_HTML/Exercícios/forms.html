@@ -86,6 +86,19 @@
         </p>
 
         <button>Enviar</button>
+
+        <h2>Validações de formulário</h2>
+        <form action="/dummy">
+            <p>
+                <label for="firstName">Como você se chama?</label>
+                <input type="text" name="firstName" id="firstName" required>
+            </p>
+            <p>
+                <label for="username">E qual é seu apelido?</label>
+                <input type="text" name="username" id="username" required minlength="5" maxlength="20" required>
+            </p>
+            <button>Enviar</button>
+        </form>
     </form>
 </body>
 

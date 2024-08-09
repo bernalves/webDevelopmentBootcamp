@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Abertas as incrições para a maratona da Pampulha!</h1>
+
+    <form action="/vamos_maratonar">
+
+        <h2>Quem é você?</h2>
+
+        <div>
+            <label for="nome">Nome completo:</label>
+            <input id="nome" type="text" name="nome" placeholder="Como você se chama?" required>
+        </div>
+
+        <h2>Como você vai participar?</h2>
+
+        <p>Corrida</p>
+        <div>
+            <input id="longaLivre" type="radio" name="modalidade" value="5KM livre" required>
+            <label for="longaLivre">5KM livre</label>
+            <br>
+            <input id="longaRevezamento" type="radio" name="modalidade" value="5KM revezamento" required>
+            <label for="longaRevezamento">5KM revezamento</label>
+            <br>
+            <input id="curtaVelocidade" type="radio" name="modalidade" value="100m velocidade" required>
+            <label for="curtaVelocidade">100m velocidade</label>
+            <br>
+            <input id="longaVelocidadeRevezamento" type="radio" name="modalidade" value="2KM velocidade revezamento" required>
+            <label for="longaVelocidadeRevezamento">2KM velocidade revezamento</label>
+        </div>
+
+        <p>Patrocínio</p>
+        <div>
+            <input id="comPatrocinio" type="radio" name="patrocinio" value="Não" required>
+            <label for="comPatrocinio">Não</label>
+            <br>
+            <input id="semPatrocinio" type="radio" name="patrocinio" value="Sim" required>
+            <label for="semPatrocinio">Sim</label>
+        </div>
+
+        <h2>Dados cadastrais</h2>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" required placeholder="Seu melhor e-mail">
+        </div>
+
+        <div>
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" type="tel" name="telefone" required placeholder="Telefone de contato">
+        </div>
+
+        <div>
+            <label for="senha">Senha de acesso:</label>
+            <input id="senha" type="password" name="senha" required placeholder="Uma que você não vai esquecer!">
+        </div>
+
+        <div>
+            <label for="faixaEtaria">Qual é sua faixa etária?</label>
+            <select name="faixa etária" required>
+                <option value="mirim" selected>De 12 a 16 anos</option>
+                <option value="jovem">De 17 a 28 anos</option>
+                <option value="adulto">de 29 a 45 anos</option>
+            </select>
+        </div>
+
+        <br>
+        <button>Me inscrever!</button>
+
+    </form>
+
+</body>
+
+</html>

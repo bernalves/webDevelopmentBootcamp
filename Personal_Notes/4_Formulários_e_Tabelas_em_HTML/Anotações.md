@@ -44,3 +44,9 @@ O elemento `<form>`, por si só, não traz nenhum ganho á estética da página,
 - [`<label>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
 
 - [`<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
+
+#### Validações de formulário
+
+- `<required>`
+
+- Expressões regulares (regex)
