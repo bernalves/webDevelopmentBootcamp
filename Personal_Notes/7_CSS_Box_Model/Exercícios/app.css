@@ -1,0 +1,32 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+h1 {
+    width: 100px;
+    background-color: pink;
+}
+
+#one {
+    background-color: green;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#two {
+    background-color: greenyellow;
+    border-color: lightcoral;
+    border-width: 3px;
+    border-style: dashed;
+    border-left-style: groove
+}
+
+#three {
+    background-color: yellow;
+    border: 2px solid blue;
+    border-left-style: dotted;
+}
