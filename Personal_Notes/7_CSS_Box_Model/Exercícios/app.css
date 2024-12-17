@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 div {
     width: 200px;
     height: 200px;
@@ -7,6 +11,9 @@ div {
 h1 {
     width: 100px;
     background-color: pink;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-bottom: 0px;
 }
 
 #one {
@@ -15,6 +22,8 @@ h1 {
     border-color: black;
     border-style: solid;
     box-sizing: border-box;
+    margin-left: 60px;
+    margin-bottom: 100px;
 }
 
 #two {
@@ -22,11 +31,19 @@ h1 {
     border-color: lightcoral;
     border-width: 3px;
     border-style: dashed;
-    border-left-style: groove
+    border-left-style: groove;
+    padding-right: 50px;
+    margin: 20px
 }
 
 #three {
     background-color: yellow;
     border: 2px solid blue;
     border-left-style: dotted;
+}
+
+button {
+    /* padding: 30px; */
+    /* padding: 10px 20px; */
+    padding: 10px 20px 30px 40px;
 }
